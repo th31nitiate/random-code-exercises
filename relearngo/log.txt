@@ -1,0 +1,2 @@
+example 2022/05/11 16:38:39 go_logs.go:13: This is regular log message
+example 2022/05/11 16:38:39 go_logs.go:14: This is a fatal error message
