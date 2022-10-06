@@ -53,9 +53,9 @@ whoa() ->
     try
         talk(),
         _Knight = "None shall Pass!",
-        _Double = [N*2 || N <- lists:seq(1,100)],
-        throw(up),
-        _WillReturnThis = tequila
+        _Double = [N*2 || N <- lists:seq(1,100)]
+        %%throw(up),
+        %%_WillReturnThis = tequila
     of
         tequila ->
             "Hey, this worked!"
